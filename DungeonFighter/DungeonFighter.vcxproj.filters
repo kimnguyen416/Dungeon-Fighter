@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{35aefe8d-3861-48d2-a962-2f102d388950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{af4c12ec-a9dc-407c-b477-0c02d8834b4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{cde2d01b-625b-4d36-9a24-1dc9246e5e2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{b13a6eb2-b60c-4489-96d6-858b8a0c20ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{88361219-e23c-4226-a4d4-9a84f4815585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{fb229981-2a5c-4bbc-9b00-f1e407b26c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\NPCS">
+      <UniqueIdentifier>{2ea18056-a2f8-4b7e-8e81-651fc8688da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\Enemies">
+      <UniqueIdentifier>{27fd5055-b7e9-40cf-bd6e-02f347132efa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\NPCS">
+      <UniqueIdentifier>{2022ff0e-3d39-464a-a9f4-dd3e12a93148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\Enemies">
+      <UniqueIdentifier>{496b29f7-c0ad-4886-94a3-f589189da3e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities\Player">
+      <UniqueIdentifier>{6b13afc6-3a82-4c51-90ba-0ee3f989d462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities\Player">
+      <UniqueIdentifier>{c71dbd55-b411-4ca6-82cd-e53f3a40f110}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ControlsMenu.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Lives.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Speech.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseNPC.cpp">
+      <Filter>Source Files\Entities\NPCS</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ControlsMenu.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveSystem.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseNPC.h">
+      <Filter>Header Files\Entities\NPCS</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc1.h">
+      <Filter>Header Files\Entities\NPCS</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc3.h">
+      <Filter>Header Files\Entities\NPCS</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc4.h">
+      <Filter>Header Files\Entities\NPCS</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc2.h">
+      <Filter>Header Files\Entities\NPCS</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Lives.h">
+      <Filter>Header Files\Entities\NPCS</Filter>
+    </ClInclude>
+    <ClInclude Include="Speech.h">
+      <Filter>Header Files\Entities\NPCS</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob1.h">
+      <Filter>Header Files\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet.h">
+      <Filter>Header Files\Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob2.h">
+      <Filter>Header Files\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob3.h">
+      <Filter>Header Files\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Mob4.h">
+      <Filter>Header Files\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
